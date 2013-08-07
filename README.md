@@ -7,10 +7,10 @@ JQuery Thumbnail Resizer keeps an image contained, scaled, proportional and cent
 
 	new ThumbnailResizer(parent,childSelector,verticalPadding,horizontalPadding,perImageCallback)
 
-`parent` is the jQuery object referencing the container element
-`childSelector` is a string selector that finds the elements within the container element. It is applied using `container.find(childSelector)` so don't include the container in the selector
-`verticalPadding` and `horizontalPadding`  allow for an offset between the image and the boundaries of the container. If the padding is '20px' either side, this should be '40'.
-`perImageCallback` I like to keep my images as 'opacity:0' in the css until the resizing is complete, so I use this callback to animate the image in to opacity=1. Function takes one parameter which is the jquery object referencing the img.
+* `parent` is the jQuery object referencing the container element
+* `childSelector` is a string selector that finds the elements within the container element. It is applied using `container.find(childSelector)` so don't include the container in the selector
+* `verticalPadding` and `horizontalPadding`  allow for an offset between the image and the boundaries of the container. If the padding is '20px' either side, this should be '40'.
+* `perImageCallback` I like to keep my images as 'opacity:0' in the css until the resizing is complete, so I use this callback to animate the image in to opacity=1. Function takes one parameter which is the jquery object referencing the img.
 
 ### Example
 
